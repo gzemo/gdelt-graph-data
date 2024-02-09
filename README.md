@@ -1,6 +1,6 @@
 # GDELT Graph Data
 
-The current repository provides a simple data processing pipeline to gather event information from the *GDELT* project (v.2.0 Event data) in order to provide a daily adjacency matrix that models the worldwide countries relationships through time.
+The current repository provides a simple data processing pipeline that gathers event information from the *GDELT* project (v.2.0 Event data) in order to provide a daily adjacency matrix that models the worldwide countries relationships through time.
 
 This project is a spin-off from an analysis that addressed the mutual influence of countries foreing affairs (*see:* https://github.com/gzemo/relations-of-power-between-countries).
 
@@ -12,7 +12,7 @@ From 1 January 2018 - ongoing
 
 
 ## Data
-Adjacency matrices can be found in `./networks` in the following format `./networks/YYYYMMDD_networks.zip`. <br/>
+Adjacency matrices are already downloaded and converted and can be found in `./networks` in the following format `./networks/YYYYMMDD_networks.zip`. <br/>
 Each compressed file containts the `npy` Python numpy file that can be loaded by:
 
 ```python
