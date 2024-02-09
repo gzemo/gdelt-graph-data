@@ -47,4 +47,5 @@ The way in which the countries’ relationships had been formalized relies on a 
 
 ## Credits
 
-@ The GDELT project: https://www.gdeltproject.org/
+- *The GDELT project*: https://www.gdeltproject.org/
+- Countries ISO code: *Wikipedia®* https://en.wikipedia.org/wiki/List_of_ISO_3166_country_code
