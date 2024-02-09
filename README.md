@@ -40,7 +40,7 @@ def read(filepath, outdir):
 
 ## Edge connectivity estimation
 
-The way in which the countries’ relationships had been formalized relies on a composite score which takes into account the information available from the list of filtered event features. The resulting edge value between nodes $(i,j)$ that defines the degree to which an alliance is occurring between that pair of countries mostly depends on the Goldstein Score ($GS$). Minor relevance is given by the news coverage information such as the *a)* number of sources, *b)* number of articles and *c)* the average tone (formalised respectively by $(s, a, T)$ in the equation below) by tuning their weighting factors {$\theta_1, \theta_2, \theta_3$} in a $[0,1]$ range:
+The way in which the countries’ relationships had been formalized relies on a composite score which takes into account the information available from the list of filtered event features. The resulting edge value between nodes $(i,j)$ that defines the degree to which an alliance is occurring between that pair of countries mostly depends on the Goldstein Score ($GS$). Minor relevance is given by the news coverage information such as the *a)* number of sources, *b)* number of articles and *c)* the average tone (formalised respectively by $(s, a, T)$ in the equation below) by tuning their weighting factors $\theta_1, \theta_2, \theta_3$ in a $[0,1]$ range:
 
 ![alt text](./pics/edge_estimation.png?raw=true)
 
