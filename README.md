@@ -38,6 +38,6 @@ The way in which the countries’ relationships had been formalized relies on a 
 ![alt text](./pics/edge_estimation.png?raw=true)
 
 
+## Credits
 
-
-
+@ The GDELT project: https://www.gdeltproject.org/
