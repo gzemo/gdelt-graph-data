@@ -33,7 +33,7 @@ def read(filepath, outdir):
 
 ## Daily graph estimation
 
-1. **Single-update graph estimation:** the single 15 minute interval update graph is estimated by assigning to each pair of countries involved in each entry the corresponding weight as defined in the previous section generating the $G_k^{[update]}$ graph with $k=1, .., N_{updates}$.
+1. **Single-update graph estimation:** the single 15 minute interval update graph is estimated by assigning to each pair of countries involved in each entry the corresponding weight (*see below*) generating the $G_k^{[update]}$ graph with $k=1, .., N_{updates}$.
 
 2. **Daily-updates graph estimation:** the complete set of 15 minutes time interval updates of a given day (as in Point *#1*) is processed and the edgewise values are summed, yielding the $G_d^{[day]}$ graph with $d=1, .., N_{days}$.
 
