@@ -13,7 +13,7 @@ From 1 January 2018 - ongoing
 
 ## Data
 Adjacency matrices can be found in `./networks` in the following format `./networks/YYYYMMDD_networks.zip`. <br/>
-Each compressed file containts the `npy` Python numpy file that can be load by:
+Each compressed file containts the `npy` Python numpy file that can be loaded by:
 
 ```python
 year, month, day = "2024", "04", "16" 
