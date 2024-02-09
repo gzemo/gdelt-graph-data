@@ -27,7 +27,7 @@ import zipfile
 
 def read(filepath, outdir):
 	with zipfile.ZipFile(filepath, "r") as zf:
-    	zf.extractall(outdir)
+		zf.extractall(outdir)
 ```
 
 
